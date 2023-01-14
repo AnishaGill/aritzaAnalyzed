@@ -29,7 +29,7 @@
     left: calc(52% - 514px/2 + 514px);
     top: calc(8% - 23px/2 - 319.5px);
     
-    font-family: 'Roboto Serif';
+    font-family: 'Roboto Serif', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;

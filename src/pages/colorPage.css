@@ -5,7 +5,7 @@
     left: calc(50% - 1384px/2 - 4px);
     top: calc(40% - 106px/2 - 40px);
 
-    font-family: 'Roboto Serif';
+    font-family: 'Roboto Serif', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 80px;
@@ -23,7 +23,7 @@
         left: calc(50% - 1098px/2);
         top: calc(40% - 94px/2 + 47px);
     
-        font-family: 'Roboto Serif';
+        font-family: 'Roboto Serif', serif;
         font-style: normal;
         font-weight: 600;
         font-size: 80px;
@@ -44,7 +44,7 @@
         left: calc(50% - 368px/2 + 91px);
         top: calc(40% - 84px/2 + 201px);
     
-        font-family: 'Roboto Serif';
+        font-family: 'Roboto Serif', serif;
         font-style: normal;
         font-weight: 500;
         font-size: 36px;
@@ -64,7 +64,7 @@
         left: calc(50% - 118px/2 + 345px);
         top: calc(40% - 42px/2 + 222px);
     
-        font-family: 'Roboto Serif';
+        font-family: 'Roboto Serif', serif;
         font-style: normal;
         font-weight: 500;
         font-size: 36px;
