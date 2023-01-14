@@ -1,0 +1,49 @@
+
+
+.main-title-1{
+    position: absolute;
+        width: 1384px;
+        height: 106px;
+        left: calc(50% - 1384px/2 - 4px);
+        top: calc(50% - 106px/2 - 40px);
+    
+        font-family: 'Roboto Serif';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 94px;
+    
+        color: #000000;
+}
+
+.main-title-2{
+    /* One colour came out on top */
+    
+    
+        position: absolute;
+        left: 11.88%;
+        right: 11.88%;
+        top: 50%;
+        bottom: 40.82%;
+    
+        font-family: 'Non-Seasonal Geo,sans-serif';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 94px;
+        /* identical to box height */
+    
+    
+        color: #000000;
+}
+
+.bg-shape-1{
+    position: absolute;
+        left: -13.53%;
+        right: 2.23%;
+        top: -11.52%;
+        bottom: -1.51%;
+    
+        background: #EFECF7;
+}
+

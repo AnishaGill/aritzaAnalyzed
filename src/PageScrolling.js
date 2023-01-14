@@ -2,6 +2,7 @@ import React from 'react';
 import Fullpage, { FullPageSections, FullpageNavigation, FullpageSection } from '@ap.cx/react-fullpage';
 import { BrandPage } from "./pages/brandPage"
 import { WelcomePage } from "./pages/welcomePage"
+import { ColourPage } from "./pages/colourPage"
 
 
 export const PageScroll = () => {
@@ -23,6 +24,9 @@ export const PageScroll = () => {
                     </FullpageSection>
                     <FullpageSection>
                         
+                </FullpageSection>
+                <FullpageSection>
+                        <ColourPage  />
                     </FullpageSection>
                 </FullPageSections>
         </Fullpage>
