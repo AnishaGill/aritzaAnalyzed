@@ -24,9 +24,9 @@
 
 .desc {
     position: absolute;
-    width: 514px;
+    width: 440px;
     height: 23px;
-    left: calc(52% - 514px/2 + 514px);
+    left: calc(52% - 514px/2 + 440px);
     top: calc(8% - 23px/2 - 319.5px);
     
     font-family: 'Roboto Serif', serif;

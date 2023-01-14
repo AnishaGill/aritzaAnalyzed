@@ -59,7 +59,7 @@
         position: absolute;
         width: 118px;
         height: 42px;
-        left: calc(50% - 118px/2 + 290px);
+        left: calc(50% - 118px/2 + 340px);
         top: calc(40% - 42px/2 + 222px);
     
         font-family: 'Roboto Serif', serif;
