@@ -3,6 +3,26 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import './App.css';
 import { PageScroll } from "./PageScrolling"
 
+import AllUserJSON from './customer_summary_3.json'
+
+
+//////////////////////////////////////////////////
+const userKeys = Object.keys(AllUserJSON);
+
+const userNumbers = Object.keys(AllUserJSON[userKeys[0]])
+const userObjects = []; // this is the object that group info per user
+
+userNumbers.forEach((userNumber) => {
+  const newUserObject = {};
+  userKeys.forEach((key) => {
+    newUserObject[key] = AllUserJSON[key][userNumber]
+  })
+  userObjects.push(newUserObject);
+})
+
+///////////////////////////////////////////////////
+
+
 function App() {
   return (
     <main className="container">
