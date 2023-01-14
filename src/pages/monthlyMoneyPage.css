@@ -1,0 +1,67 @@
+/* image 18 */
+
+.monthlyImg {
+    position: absolute;
+    width: 940px;
+    height: 620px;
+    left: calc(50% - 1359px/2 - 0.5px);
+    top: calc(58% - 620px/2 - 123px);    
+
+    background: url("../imgs/monthlyImg.png");
+    border-radius: 86px;
+}
+
+
+/* image 4 */
+
+.logo4 {
+    position: absolute;
+    width: 369px;
+    height: 137px;
+    left: calc(40% - 369px/2 + 904.5px);
+    top: calc(59% - 137px/2 + 211.5px);
+
+    background: url("../imgs/logo.png");
+    transform: rotate(90deg);
+}
+
+/* You treated yourself best in February, shopping with us 4 times that month */
+
+.monthlyFirstText {
+    position: absolute;
+    width: 1359px;
+    height: 191px;
+    left: calc(50% - 1359px/2 - 0.5px);
+    top: calc(58% - 191px/2 + 344.5px);
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 76px;
+
+    color: #000000;
+}
+
+
+
+/* With a total of 18 visits, that puts you in the top 3% of our customers! */
+
+.monthlySecondText {
+    position: absolute;
+    width: 1179px;
+    height: 40px;
+    left: calc(50% - 1179px/2 - 90.5px);
+    top: calc(58% - 40px/2 + 436px);
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+
+    color: #000000;
+
+    opacity: 0.3;
+}
