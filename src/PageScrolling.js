@@ -5,12 +5,21 @@ import { WelcomePage } from "./pages/welcomePage"
 
 
 export const PageScroll = () => {
+
+    const Style = {
+        height: '100vh',
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+    }
+
     return (
         <Fullpage>
             <FullpageNavigation />
                 <FullPageSections>
-                    <FullpageSection style={{height: '100vh'}}>
-                        <WelcomePage />
+                    <FullpageSection>
+                        <WelcomePage  />
                     </FullpageSection>
                     <FullpageSection>
                         
