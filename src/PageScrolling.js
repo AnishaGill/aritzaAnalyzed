@@ -35,7 +35,6 @@ export const PageScroll = () => {
                         <ColourPage />
                     </FullpageSection>
                   
-
                     <FullpageSection style={Style}>
                         <MonthlyMoneyPage />
                     </FullpageSection>
