@@ -4,7 +4,7 @@
     width: 418px;
     height: 159px;
     left: calc(50% - 418px/2 - 498px);
-    top: calc(25% - 159px/2 - 410.5px);
+    top: calc(8% - 159px/2 - 410.5px);
 
     background: url("../imgs/logo.png");
 
@@ -15,7 +15,7 @@
     width: 1330px;
     height: 754px;
     left: calc(50% - 1330px/2);
-    top: calc(25% - 754px/2 + 81px);
+    top: calc(8% - 754px/2 + 81px);
 
     background: url("../imgs/main-img.png");
 }
@@ -26,8 +26,8 @@
     position: absolute;
     width: 514px;
     height: 23px;
-    left: calc(54% - 514px/2 + 480px);
-    top: calc(25% - 23px/2 - 319.5px);
+    left: calc(52% - 514px/2 + 514px);
+    top: calc(8% - 23px/2 - 319.5px);
     
     font-family: 'Roboto Serif';
     font-style: normal;
@@ -48,7 +48,7 @@
     height: 64px;
 
     left: calc(50% - 1330px/2);
-    top: calc(25% - 754px/2 + 8px);
+    top: calc(8% - 754px/2 + 8px);
 
     font-family: 'Roboto Serif';
     font-style: normal;

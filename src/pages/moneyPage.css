@@ -1,0 +1,102 @@
+/* image 4 */
+
+.logo4 {
+    position: absolute;
+    width: 369px;
+    height: 137px;
+    left: calc(50% - 369px/2 + 904.5px);
+    top: calc(75% - 137px/2 + 250.5px);
+
+    background: url("../imgs/logo.png");
+    transform: rotate(90deg);
+}
+
+
+/* image 15 */
+
+.ts2 {
+    position: absolute;
+    width: 290px;
+    height: 529px;
+    left: calc(50% - 290px/2 + 357px);
+    top: calc(75% - 529px/2 + 202.5px);
+
+    background: url("../imgs/ts2.png");
+}
+
+
+/* And in total this year, you’ve spent */
+
+.firstText {
+    position: absolute;
+    width: 782px;
+    height: 38px;
+    left: calc(50% - 782px/2 - 292px);
+    top: calc(75% - 38px/2 - 439px);
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+
+    /* identical to box height */
+
+
+    color: #141414;
+
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+/* $683.85 */
+
+.amt {
+    position: absolute;
+    width: 1077px;
+    height: 252px;
+    left: calc(50% - 1077px/2 - 144.5px);
+    top: calc(75% - 252px/2 - 294px);
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 256px;
+    line-height: 300px;
+
+    color: #000000;
+}
+
+
+/* With your support, we’ve been able to donate millions to charities through our Aritzia Community™ Giving Program, which you can read more about here */
+
+.charity {
+    position: absolute;
+    width: 1031px;
+    height: 148px;
+    left: calc(50% - 1031px/2 - 176.5px);
+    top: calc(75% - 148px/2 - 54px);
+    
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #000000;
+    
+}
+
+
+
+/* image 16 */
+
+.ts1 {
+    position: absolute;
+    width: 756px;
+    height: 447px;
+    left: calc(50% - 756px/2 - 306px);
+    top: calc(75% - 447px/2 + 246.5px);
+
+    background: url("../imgs/ts1.png");
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import Fullpage, { FullPageSections, FullpageNavigation, FullpageSection } from '@ap.cx/react-fullpage';
 import { BrandPage } from "./pages/brandPage"
 import { WelcomePage } from "./pages/welcomePage"
+import { MoneyPage } from "./pages/moneyPage"
 
 
 export const PageScroll = () => {
@@ -18,11 +19,29 @@ export const PageScroll = () => {
         <Fullpage>
             <FullpageNavigation />
                 <FullPageSections>
-                    <FullpageSection>
+                    
+                    <FullpageSection style={Style}>
                         <WelcomePage  />
                     </FullpageSection>
-                    <FullpageSection>
-                        
+
+                    <FullpageSection style={Style}>
+                        a
+                    </FullpageSection>
+
+                    <FullpageSection style={Style}>
+                        b
+                    </FullpageSection>
+
+                    <FullpageSection style={Style}>
+                        c
+                    </FullpageSection>
+
+                    <FullpageSection style={Style}>
+                        <MoneyPage />
+                    </FullpageSection>
+
+                    <FullpageSection style={Style}>
+                        end
                     </FullpageSection>
                 </FullPageSections>
         </Fullpage>
