@@ -1,13 +1,12 @@
 
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import './App.css';
+import { PageScroll } from "./PageScrolling"
 
 function App() {
   return (
     <main className="container">
-        <p>
-          Welcome to your Aritzia Analysis woo hoo
-        </p>
+        <PageScroll />;
         <BrowserRouter>
         <Routes>
           <Route path="/" element={<welcomePage />}></Route>

@@ -1,0 +1,66 @@
+
+.logo {
+    position: absolute;
+    width: 418px;
+    height: 159px;
+    left: calc(50% - 418px/2 - 498px);
+    top: calc(25% - 159px/2 - 410.5px);
+
+    background: url("../imgs/logo.png");
+
+}
+
+.main-img {
+    position: absolute;
+    width: 1330px;
+    height: 754px;
+    left: calc(50% - 1330px/2);
+    top: calc(25% - 754px/2 + 81px);
+
+    background: url("../imgs/main-img.png");
+}
+
+/* Welcome Grace, to your Yearly Luxury report */
+
+.desc {
+    position: absolute;
+    width: 514px;
+    height: 23px;
+    left: calc(54% - 514px/2 + 480px);
+    top: calc(25% - 23px/2 - 319.5px);
+    
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;    
+}
+
+
+
+/* ANALYZED */
+
+.subtitle {
+    position: absolute;
+    width: 316px;
+    height: 64px;
+
+    left: calc(50% - 1330px/2);
+    top: calc(25% - 754px/2 + 8px);
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+
+    color: #000000;
+}
+
+main {
+    height: '100vh';
+    width: '100%';
+    display: 'flex';
+}
