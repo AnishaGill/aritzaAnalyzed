@@ -1,0 +1,66 @@
+/* image 17 */
+
+.end {
+    position: absolute;
+    width: 444px;
+    height: 1015px;
+    left: calc(50% - 444px/2 + 313px);
+    top: calc(92% - 1015px/2);
+
+    background: url(".././imgs/end.png");
+}
+
+/* So will your friends */
+
+.secondTextEnd {
+    position: absolute;
+    width: 410px;
+    height: 47px;
+    left: calc(50% - 410px/2 - 205px);
+    top: calc(90% - 47px/2 + 150.5px);
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+
+/* image 17 */
+
+.logo6 {
+    position: absolute;
+    width: 369px;
+    height: 137px;
+    left: calc(40% - 369px/2 + 904.5px);
+    top: calc(93.5% - 137px/2 + 211.5px);
+
+    background: url("../imgs/logo.png");
+    transform: rotate(90deg);
+}
+
+/* Liked your report? */
+
+.firstTextEnd {
+    position: absolute;
+    width: 659px;
+    height: 82px;
+    left: calc(50% - 659px/2 - 329.5px);
+    top: calc(90% - 82px/2);
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 82px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
