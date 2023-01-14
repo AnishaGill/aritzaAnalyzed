@@ -78,12 +78,12 @@
 
 .bg-shape-1 {
     position: absolute;
-    left: -13.53%;
-    right: 2.23%;
-    top: -11.52%;
-    bottom: -1.51%;
-
-    background: #EFECF7;
+        width: 1860.32px;
+        height: 911.01px;
+        left: calc(50% - 1860.32px/2 - 396.34px);
+        top: calc(40% - 911.01px/2 + 280.12px);
+    
+        background: #B1A0D6;
 }
 
 .logo3 {
