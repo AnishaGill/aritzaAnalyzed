@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import './App.css';
 import { PageScroll } from "./PageScrolling"
 
-import AllUserJSON from './customer_summary_3.json'
+import AllUserJSON from './data/customer_summary.json'
 
 
 //////////////////////////////////////////////////
