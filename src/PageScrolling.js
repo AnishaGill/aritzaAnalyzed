@@ -5,6 +5,7 @@ import { WelcomePage } from "./pages/welcomePage"
 import { MoneyPage } from "./pages/moneyPage"
 import { ColourPage } from './pages/colourPage';
 import { EndPage } from "./pages/endPage"
+import { MonthlyMoneyPage } from './pages/monthMoneyPage';
 
 
 export const PageScroll = () => {
@@ -27,15 +28,16 @@ export const PageScroll = () => {
                     </FullpageSection>
 
                     <FullpageSection style={Style}>
-                        a
+                        <BrandPage />
                     </FullpageSection>
 
                     <FullpageSection style={Style}>
                         <ColourPage />
                     </FullpageSection>
+                  
 
                     <FullpageSection style={Style}>
-                        c
+                        <MonthlyMoneyPage />
                     </FullpageSection>
 
                     <FullpageSection style={Style}>
@@ -45,7 +47,7 @@ export const PageScroll = () => {
                     <FullpageSection style={Style}>
                         <EndPage />
                     </FullpageSection>
-                    
+
                 </FullPageSections>
         </Fullpage>
     );

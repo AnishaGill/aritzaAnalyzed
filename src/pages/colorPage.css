@@ -16,7 +16,6 @@
 .main-title-2 {
     /* One colour came out on top */
 
-
     position: absolute;
         width: 1098px;
         height: 94px;
@@ -57,7 +56,6 @@
 .subtitle-2{
     /* purple */
     
-    
         position: absolute;
         width: 118px;
         height: 42px;
@@ -89,9 +87,15 @@
     position: absolute;
     width: 369px;
     height: 137px;
-    left: calc(50% - 369px/2 + 904.5px);
+    left: calc(40% - 369px/2 + 904.5px);
     top: calc(40% - 137px/2 + 250.5px);
 
     background: url("../imgs/logo.png");
     transform: rotate(90deg);
+}
+
+.colour {
+    width: 1440px;
+    height: 1024px;
+    background: url("../imgs/colour.png");
 }
