@@ -19,7 +19,7 @@
     left: calc(50% - 410px/2 - 205px);
     top: calc(90% - 47px/2 + 150.5px);
 
-    font-family: 'Roboto Serif';
+    font-family: 'Roboto Serif', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -53,7 +53,7 @@
     left: calc(50% - 659px/2 - 329.5px);
     top: calc(90% - 82px/2);
 
-    font-family: 'Roboto Serif';
+    font-family: 'Roboto Serif', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 70px;
@@ -63,4 +63,23 @@
 
     color: #000000;
 }
+
+ .thirdTextEnd{
+    position: absolute;
+    width: 600px;
+    height: 47px;
+    left: calc(50% - 410px/2 - 345px);
+    top: calc(90% - 47px/2 + 150.5px);
+
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 150px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+} 
 

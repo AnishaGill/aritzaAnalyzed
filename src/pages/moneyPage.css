@@ -34,7 +34,7 @@
     left: calc(50% - 782px/2 - 292px);
     top: calc(75% - 38px/2 - 439px);
 
-    font-family: 'Roboto Serif';
+    font-family: 'Roboto Serif', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -58,7 +58,7 @@
     left: calc(50% - 1077px/2 - 144.5px);
     top: calc(75% - 252px/2 - 294px);
 
-    font-family: 'Roboto Serif';
+    font-family: 'Roboto Serif', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 256px;
@@ -77,7 +77,7 @@
     left: calc(50% - 1031px/2 - 176.5px);
     top: calc(75% - 148px/2 - 54px);
     
-    font-family: 'Roboto Serif';
+    font-family: 'Roboto Serif', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;

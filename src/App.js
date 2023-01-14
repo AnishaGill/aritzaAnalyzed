@@ -20,6 +20,9 @@ userNumbers.forEach((userNumber) => {
   userObjects.push(newUserObject);
 })
 
+console.log(userObjects);
+
+
 ///////////////////////////////////////////////////
 
 
