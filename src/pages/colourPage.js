@@ -12,7 +12,6 @@ export const ColourPage = () => {
                 <p className="subtitle-2"> Purple</p>
 
                 
-                
             </div>
 
             <div className=".bg-shape-1"></div>
